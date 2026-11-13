@@ -1,0 +1,64 @@
+Agristack Captcha Solver Privacy Policy
+
+Effective date: November 13, 2026
+
+This policy explains how Agristack Captcha Solver, published by Texter Computer
+(“the extension”), handles information when you use it.
+
+Information the extension handles
+
+The extension runs on agristack.gov.in and its subdomains. It detects responses
+to the site's CAPTCHA request and sends the response payload to the solver
+service at https://textercompter.store/agri/captcha_solver.php. The payload is
+the data returned by that CAPTCHA request; it may contain the CAPTCHA image or
+other fields included in the response. The extension sends the payload so the
+service can return a CAPTCHA solution.
+
+The extension stores the following in Chrome local storage on your device:
+
+- The total number of CAPTCHAs solved and the number solved today.
+- The date used for the daily count.
+- The most recently solved CAPTCHA's image, answer, and time.
+
+This information remains in the browser until you clear the extension's data or
+remove the extension. The extension does not sync this information through a
+developer account.
+
+Solver service and retention
+
+The CAPTCHA payload is transmitted to the solver service over HTTPS. The
+extension's code does not establish whether the service stores submitted
+payloads, how long any server-side information is retained, or when it is
+deleted. Before publication, the developer should add the service's actual
+retention and deletion practices here and confirm that they match this policy.
+The service may also receive ordinary connection information, such as your IP
+address, as part of handling the request.
+
+Other sharing and use
+
+The extension does not include analytics code. Its popup contains an optional
+link to another Texter Computer extension in the Chrome Web Store; clicking the
+link opens that store listing.
+
+Your choices
+
+You can stop this processing by disabling or removing the extension. You can
+remove the extension to clear its locally stored counts and last CAPTCHA.
+Removing the extension does not necessarily delete information already sent to
+the solver service; contact the service operator about server-side deletion
+requests.
+
+Children
+
+The extension is intended for use with the Agristack website and is not
+designed specifically for children.
+
+Changes to this policy
+
+If the extension's data practices change, this policy will be updated. The
+effective date above indicates when it was last revised.
+
+Contact
+
+For privacy questions or requests, contact Texter Computer at:
+[textercomputer@gmail.com]
